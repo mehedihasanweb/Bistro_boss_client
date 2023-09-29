@@ -10,7 +10,7 @@ const useAxiosSecure = () => {
   const navigate = useNavigate();
   const axiosSecure = axios.create({
     baseURL:
-      "https://practice-bistro-boss-server-exmomcouy-mehedihasanweb.vercel.app",
+      "https://practice-bistro-boss-server-hdxkas0mq-mehedihasanweb.vercel.app",
   });
   useEffect(() => {
     axiosSecure.interceptors.request.use((config) => {

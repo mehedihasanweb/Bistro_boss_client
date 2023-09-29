@@ -7,7 +7,7 @@ import Swal from "sweetalert2";
 const AllUsers = () => {
   const { data: users = [], refetch } = useQuery(["users"], async () => {
     const res = await fetch(
-      "https://practice-bistro-boss-server-exmomcouy-mehedihasanweb.vercel.app/users"
+      "https://practice-bistro-boss-server-hdxkas0mq-mehedihasanweb.vercel.app/users"
     );
     return res.json();
   });
@@ -18,7 +18,7 @@ const AllUsers = () => {
 
   const handleMakeAdmin = (user) => {
     fetch(
-      `https://practice-bistro-boss-server-exmomcouy-mehedihasanweb.vercel.app/users/admin/${user._id}`,
+      `https://practice-bistro-boss-server-hdxkas0mq-mehedihasanweb.vercel.app/users/admin/${user._id}`,
       {
         method: "PATCH",
       }

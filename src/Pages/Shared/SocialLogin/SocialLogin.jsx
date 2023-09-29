@@ -21,7 +21,7 @@ const SocialLogin = () => {
         email: loggedInUser.email,
       };
       fetch(
-        "https://practice-bistro-boss-server-exmomcouy-mehedihasanweb.vercel.app/users",
+        "https://practice-bistro-boss-server-hdxkas0mq-mehedihasanweb.vercel.app/users",
         {
           method: "POST",
           headers: {

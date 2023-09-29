@@ -22,7 +22,7 @@ const MyCarts = () => {
     }).then((result) => {
       if (result.isConfirmed) {
         fetch(
-          `https://practice-bistro-boss-server-exmomcouy-mehedihasanweb.vercel.app/carts/${item._id}`,
+          `https://practice-bistro-boss-server-hdxkas0mq-mehedihasanweb.vercel.app/carts/${item._id}`,
           {
             method: "DELETE",
           }

@@ -19,7 +19,7 @@ const useCart = () => {
   // const { refetch, data: cart = [] } = useQuery({
   //     queryKey: ['carts', users?.email],
   //     queryFn: async () => {
-  //         const response = await fetch(`https://practice-bistro-boss-server-exmomcouy-mehedihasanweb.vercel.app/carts?email=${users.email}`,{
+  //         const response = await fetch(`https://practice-bistro-boss-server-hdxkas0mq-mehedihasanweb.vercel.app/carts?email=${users.email}`,{
   //             headers: {
   //                 authorization: `bearer ${token}`
   //             }

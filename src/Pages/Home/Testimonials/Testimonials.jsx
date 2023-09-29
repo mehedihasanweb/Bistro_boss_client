@@ -17,7 +17,7 @@ const Testimonials = () => {
 
   useEffect(() => {
     fetch(
-      "https://practice-bistro-boss-server-exmomcouy-mehedihasanweb.vercel.app/reviews"
+      "https://practice-bistro-boss-server-hdxkas0mq-mehedihasanweb.vercel.app/reviews"
     )
       .then((res) => res.json())
       .then((data) => setReviews(data));

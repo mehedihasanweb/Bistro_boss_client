@@ -2,6 +2,20 @@
     background-image: url('../../../assets/home/chef-service.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 112px;
+    
 }
 
+@media (min-width: 769px) {
+    .image {
+      padding: 100px; /* Set padding to 100px for larger screens */
+    }
+  }
+  
+  /* Media query for smaller screens (e.g., screens narrower than 768px) */
+  @media (max-width: 768px) {
+    .image {
+      padding: 0px;
+      margin-left: 5px; /* Set padding to 10px for smaller screens */
+      margin-right: 5px; /* Set padding to 10px for smaller screens */
+    }
+  }
